@@ -1,10 +1,10 @@
 ## About Me
-I created this project to showcase my Python and cyber security skills as I start my journey in the field. My goal is to build more security tools.
+My goal is to build more security tools.
 I hope this project helps other beginners.. <3 :).
 
 # Basic Python Port Scanner
 
-This is a beginner-friendly port scanner written in Python. It can scan multiple hosts and a range of ports using both basic socket programming and the "python-nmap" library.
+This is a beginner friendly port scanner written in Python. It can scan multiple hosts and a range of ports using both basic socket programming and the "python-nmap" library.
 
 ## Features
 - Scan multiple hosts (comma-separated IPs or domains)
