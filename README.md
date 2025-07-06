@@ -1,5 +1,6 @@
 ## About Me
-I created this project to showcase my Python and cyber security skills as I start my journey in the field. My goal is to build more security tools, learn about web hacking, and eventually pursue certifications like OSCP. I hope this project helps other beginners and demonstrates my passion for learning and ethical hacking.. <3 :).
+I created this project to showcase my Python and cyber security skills as I start my journey in the field. My goal is to build more security tools.
+I hope this project helps other beginners.. <3 :).
 
 # Basic Python Port Scanner
 
