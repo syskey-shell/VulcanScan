@@ -67,8 +67,6 @@ python VulcanScan.py -t 192.168.1.1,example.com -sp 1 -ep 1000 --osint --web-rec
 
 I’m syskey, an aspiring penetration tester and security enthusiast.  
 I believe in learning by building this tool is open source so other beginners can learn too.  
-I love practical projects that prove I know my basics and can turn ideas into working tools.
-
 ---
 
 ## Disclaimer
