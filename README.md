@@ -3,7 +3,7 @@
 VulcanScan is a beginner-friendly but powerful Python port scanner for penetration testers, bug bounty hunters, and security learners.  
 It’s fast, multi-threaded, and gives you clean, colorful output with banners and JSON logs.
 
-I built this as an aspiring penetration tester to help newbies learn how scanning works under the hood —  
+I built this as an aspiring penetration tester to help newbies learn how scanning works under the hood 
 not just to run tools, but to build them, break them, and really understand them.  
 This is your first custom recon tool tweak it, test it, and make it your own!
 
