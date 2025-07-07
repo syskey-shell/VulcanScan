@@ -12,9 +12,7 @@ This is your first custom recon beast  tweak it, test it, break it, and make it 
 ✅ Multi-threaded scanning — fast on big ranges  
 ✅ Color output: green for open, red for closed/errors  
 ✅ Banner grabbing for open ports  
-✅ Basic service detection(HTTP headers, SSH, FTP hints)  
-✅ Optional OSINT info gathering (IP lookup, Reverse DNS, WHOI)  
-✅ Optional web directory brute forcing for common paths (/admin, /login, etc.)  
+✅ Optional OSINT info gathering (IP lookup, Reverse DNS, WHOIS)  
 ✅ JSON output with timestamps for reports  
 ✅ Verbose mode to show closed ports too  
 ✅ Optional Nmap fallback scan
