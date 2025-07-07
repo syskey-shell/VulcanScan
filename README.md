@@ -36,24 +36,29 @@ pip install -r requirements.txt
 ## Usage (Quick Tutorial)
 
 Basic example:
-
 python VulcanScan_2.0.py -t 192.168.1.1,example.com -sp 1 -ep 1000 -o results.txt -v
-
+Run with OSINT + Web Recon:
+python VulcanScan.py -t 192.168.1.1,example.com -sp 1 -ep 1000 --osint --web-recon -o results.txt -v
 Flags:
-- -t : Comma-separated target hosts/IPs
-- -sp : Start port
-- -ep : End port
-- -o : Output file name (optional)
-- -v : Verbose mode to show closed ports (optional)
+| Flag          | Description                                                           |
+| ------------- | --------------------------------------------------------------------- |
+| `-t`          | Comma-separated target hosts/IPs                                      |
+| `-sp`         | Start port                                                            |
+| `-ep`         | End port                                                              |
+| `-o`          | Output file name (optional)                                           |
+| `-v`          | Verbose mode shows closed ports too (optional)                        |
+| `--osint`     | Run basic OSINT info gathering (IP, reverse DNS)                      |
+| `--web-recon` | Run mini web directory brute forcing on open HTTP(S) ports (optional) |
 
 ---
 
 ##  Example Output
 
-[+] 192.168.1.1 Port 22: OPEN - Banner: OpenSSH 7.4
-\\x1b[91m[-] 192.168.1.1 Port 21: CLOSED\\x1b[0m
+[+] 192.168.1.1 Port 80: OPEN - Banner: Apache/2.4.7
+[+] HTTP Response Headers: {...}
+[+] Found: /admin [200]
+[+] IP: 192.168.1.1 | Reverse DNS: ('example.local', [], ['192.168.1.1'])
 [+] Results saved to results.txt and results.json
-
 ---
 
 ##  About Me
