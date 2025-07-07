@@ -1,22 +1,23 @@
 ##  About VulcanScan
+VulcanScan Beast Two is a beginner friendly but now more advanced Python port scanner and mini recon toolkit for penetration testers, bug bounty hunters, and security learners.
+It’s still fast, multi-threaded, and gives you clean, colorful output  but now includes service detection, optional OSINT info, and web directory fuzzing to help you find more than just open ports.
 
-VulcanScan is a beginner-friendly but powerful Python port scanner for penetration testers, bug bounty hunters, and security learners.  
-It’s fast, multi-threaded, and gives you clean, colorful output with banners and JSON logs.
-
-I built this as an aspiring penetration tester to help newbies learn how scanning works under the hood 
-not just to run tools, but to build them, break them, and really understand them.  
-This is your first custom recon tool tweak it, test it, and make it your own!
+I built this as an aspiring penetration tester to help newbies learn how real scanning works under the hood not just run tools, but build them, extend them, and understand how attackers map targets.
+This is your first custom recon beast  tweak it, test it, break it, and make it your own.
 
 ---
 
 ## Features
 
-✅ Multi-threaded scanning fast on big ranges  
-✅ Color output: green for open ports, red for closed/errors  
+✅ Multi-threaded scanning — fast on big ranges  
+✅ Color output: green for open, red for closed/errors  
 ✅ Banner grabbing for open ports  
-✅ JSON output with timestamps for easy reporting  
+✅ Basic service detection(HTTP headers, SSH, FTP hints)  
+✅ Optional OSINT info gathering (IP + reverse DNS)  
+✅ Optional web directory brute forcing for common paths (/admin, /login, etc.)  
+✅ JSON output with timestamps for reports  
 ✅ Verbose mode to show closed ports too  
-✅ Optional Nmap fallback scan  
+✅ Optional Nmap fallback scan
 ---
 
 ## Installation
