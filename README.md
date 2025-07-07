@@ -1,17 +1,4 @@
-# ⚡️ VulcanScan
-
-\\x1b[91m __     __      _                      ____                                  _   
-\\x1b[91m \\ \\   / /__ _| | ___   __ _  ___   / ___| __ _ _ __ ___   ___  _ __   __| |  
-\\x1b[91m  \\ \\ / / _` | |/ _ \\ / _` |/ _ \\ | |  _ / _` | '_ ` _ \\ / _ \\| '_ \\ / _` | 
-\\x1b[91m   \\ V / (_| | | (_) | (_| |  __/ | |_| | (_| | | | | | | (_) | | | | (_| | 
-\\x1b[91m    \\_/ \\__,_|_|\\___/ \\__, |\\___|  \\____|\\__,_|_| |_| |_|\\___/|_| |_|\\__,_| 
-\\x1b[91m                      |___/                                                  
-\\x1b[0m                                                                               
-                             [ VulcanScan ]
-
----
-
-## 💡 About VulcanScan
+##  About VulcanScan
 
 VulcanScan is a beginner-friendly but powerful Python port scanner for penetration testers, bug bounty hunters, and security learners.  
 It’s fast, multi-threaded, and gives you clean, colorful output with banners and JSON logs.
@@ -22,7 +9,7 @@ This is your first custom recon tool tweak it, test it, and make it your own!
 
 ---
 
-## 🚀 Features
+## Features
 
 ✅ Multi-threaded scanning — fast on big ranges  
 ✅ Color output: green for open ports, red for closed/errors  
@@ -34,7 +21,7 @@ This is your first custom recon tool tweak it, test it, and make it your own!
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 1️⃣ Clone this repository:
 
@@ -47,7 +34,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🕹 Usage (Quick Tutorial)
+## Usage (Quick Tutorial)
 
 Basic example:
 
@@ -78,7 +65,7 @@ I love practical projects that prove I know my basics and can turn ideas into wo
 
 ---
 
-## ⚠ Disclaimer
+## Disclaimer
 
 Use VulcanScan responsibly! This tool is for educational and authorized testing only always get proper permission before scanning any network.  
 Remember using this tool for illegal or unethical hacking is just asking for trouble (and maybe prison).  
@@ -92,10 +79,10 @@ Licensed under the Apache License 2.0 — see the LICENSE for details.
 
 ---
 
-## 👤 Author
+## Author
 
 syskey — https://github.com/syskey-shell  
-Connect,if you find this helpful!
+Connect if you find this helpful!
 discord = __syskey
 
 
