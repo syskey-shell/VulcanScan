@@ -11,7 +11,7 @@ This is your first custom recon tool tweak it, test it, and make it your own!
 
 ## Features
 
-✅ Multi-threaded scanning — fast on big ranges  
+✅ Multi-threaded scanning fast on big ranges  
 ✅ Color output: green for open ports, red for closed/errors  
 ✅ Banner grabbing for open ports  
 ✅ JSON output with timestamps for easy reporting  
