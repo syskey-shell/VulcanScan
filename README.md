@@ -1,5 +1,5 @@
 ##  About VulcanScan
-VulcanScan Beast Two is a beginner friendly but now more advanced Python port scanner and mini recon toolkit for penetration testers, bug bounty hunters, and security learners.
+VulcanScan is a beginner friendly but now more advanced Python port scanner and mini recon toolkit for penetration testers, bug bounty hunters, and security learners.
 It’s still fast, multi-threaded, and gives you clean, colorful output  but now includes service detection, optional OSINT info(IP lookup, Reverse DNS, WHOIS).
 
 I built this as an aspiring penetration tester to help newbies learn how real scanning works under the hood not just run tools, but build them, extend them, and understand how attackers map targets.
