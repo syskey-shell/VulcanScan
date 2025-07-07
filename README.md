@@ -36,9 +36,14 @@ pip install -r requirements.txt
 ## Usage (Quick Tutorial)
 
 Basic example:
+
 python VulcanScan_2.0.py -t 192.168.1.1,example.com -sp 1 -ep 1000 -o results.txt -v
+
 Run with OSINT + Web Recon:
+
 python VulcanScan.py -t 192.168.1.1,example.com -sp 1 -ep 1000 --osint --web-recon -o results.txt -v
+
+
 Flags:
 | Flag          | Description                                                           |
 | ------------- | --------------------------------------------------------------------- |
