@@ -17,8 +17,6 @@ This is your first custom recon tool tweak it, test it, and make it your own!
 ✅ JSON output with timestamps for easy reporting  
 ✅ Verbose mode to show closed ports too  
 ✅ Optional Nmap fallback scan  
-✅ ASCII banner — your signature as a builder
-
 ---
 
 ## Installation
