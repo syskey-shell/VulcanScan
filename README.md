@@ -1,6 +1,6 @@
 ##  About VulcanScan
 VulcanScan Beast Two is a beginner friendly but now more advanced Python port scanner and mini recon toolkit for penetration testers, bug bounty hunters, and security learners.
-It’s still fast, multi-threaded, and gives you clean, colorful output  but now includes service detection, optional OSINT info, and web directory fuzzing to help you find more than just open ports.
+It’s still fast, multi-threaded, and gives you clean, colorful output  but now includes service detection, optional OSINT info(IP lookup, Reverse DNS, WHOIS), and web directory fuzzing to help you find more than just open ports.
 
 I built this as an aspiring penetration tester to help newbies learn how real scanning works under the hood not just run tools, but build them, extend them, and understand how attackers map targets.
 This is your first custom recon beast  tweak it, test it, break it, and make it your own.
@@ -13,7 +13,7 @@ This is your first custom recon beast  tweak it, test it, break it, and make it 
 ✅ Color output: green for open, red for closed/errors  
 ✅ Banner grabbing for open ports  
 ✅ Basic service detection(HTTP headers, SSH, FTP hints)  
-✅ Optional OSINT info gathering (IP + reverse DNS)  
+✅ Optional OSINT info gathering (IP lookup, Reverse DNS, WHOI)  
 ✅ Optional web directory brute forcing for common paths (/admin, /login, etc.)  
 ✅ JSON output with timestamps for reports  
 ✅ Verbose mode to show closed ports too  
@@ -44,16 +44,15 @@ Run with OSINT + Web Recon:
 python VulcanScan.py -t 192.168.1.1,example.com -sp 1 -ep 1000 --osint --web-recon -o results.txt -v
 
 
-Flags:
-| Flag          | Description                                                           |
-| ------------- | --------------------------------------------------------------------- |
-| `-t`          | Comma-separated target hosts/IPs                                      |
-| `-sp`         | Start port                                                            |
-| `-ep`         | End port                                                              |
-| `-o`          | Output file name (optional)                                           |
-| `-v`          | Verbose mode shows closed ports too (optional)                        |
-| `--osint`     | Run basic OSINT info gathering (IP, reverse DNS)                      |
-| `--web-recon` | Run mini web directory brute forcing on open HTTP(S) ports (optional) |
+| Flag      | Description                                                          |
+|-----------|----------------------------------------------------------------------|
+| `-t`      | Comma-separated target hosts/IPs                                     |
+| `-sp`     | Start port                                                           |
+| `-ep`     | End port                                                             |
+| `-o`      | Output file name (optional)                                          |
+| `-v`      | Verbose mode shows closed ports and errors (optional)                |
+| `--osint` | Run basic OSINT info gathering (IP, Reverse DNS, WHOIS) (optional)   |
+
 
 ---
 
